@@ -1,0 +1,7 @@
+1) create a route(user.js) indide of rotes folder
+2) then create userController.js inside of controller folder for handle to particular routes
+3) then register these routes inside of server.js
+4) after that create a model(userModale.js) inside of the moda folder.(schema)
+
+dependencies 
+	npm  install bcrypt
