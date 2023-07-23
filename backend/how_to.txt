@@ -1,0 +1,9 @@
+first execute routes.js file that is in route folder.  there is all of APIs we are create. 
+
+And then those routes reference controller functions.
+        router.get('/', reference_function)
+
+Then that controller functions are inside controller folder. it has all async functions that are handle all of response and request.
+
+then should register that routes on server.js file
+        app.use('/api/workoutes' , workOutRoutes)  
